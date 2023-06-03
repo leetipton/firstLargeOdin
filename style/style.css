@@ -1,0 +1,164 @@
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+nav, header, footer {
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;  
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+nav p {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;   
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.headerLeft, .headerRight {
+    flex: 1;
+}
+
+.headerLeft {
+    padding-right: 30px;
+}
+
+.headerRight {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight:bold;
+    padding: 8px 15px;
+    border:white 2px solid;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.infoBoxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.infoBoxes p {
+    color: #1f2937;
+    text-align: center;
+    width: 200px;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoCard {
+    border: #3882f6 5px solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+section, footer {
+    padding-left: 250px;
+    padding-right: 250px;   
+}
+
+#quote {
+    background-color: #e5e7eb;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote p {
+    color: #1F2937;
+    width: 800px;
+    font-size: 36px;
+    font-weight:light;
+    font-style: italic;
+}
+
+h6 {
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-left: auto;
+}
+
+.footerCard {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 50px;
+    display: flex;
+    
+}
+
+.footerLeft h6 {
+    color:#e5e7eb;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footerLeft p {
+    margin: 0;
+    padding: 0;
+}
+
+.footerLeft, .footerRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLeft {
+    flex-direction: column;
+}
+
+footer {
+    justify-content: center;
+}
